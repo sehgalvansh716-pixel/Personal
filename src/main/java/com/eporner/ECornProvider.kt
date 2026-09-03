@@ -16,7 +16,7 @@ class ECornProvider : MainAPI() {
     override var name = "E Corn"
     override var mainUrl = "https://www.eporner.com"
     override var lang = "en"
-    override val supportedTypes = setOf(TvType.NSFW)
+    override val supportedTypes = setOf(TvType.NSFW, TvType.Movie, TvType.Others)
     override val vpnStatus = VPNStatus.None
     override val providerType = ProviderType.DirectProvider
     override val hasMainPage = true
