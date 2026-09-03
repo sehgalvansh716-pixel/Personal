@@ -3,16 +3,16 @@
     "name": "E Corn",
     "internalName": "ECorn",
     "pluginClassName": "com.eporner.ECornPlugin",
-    "version": 2,
+    "version": 3,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/ECorn.cs3",
-    "fileHash": "sha256-6781d11ab45bde52ffcf204901d883804d0d32f580cd67142cf1739cac991cc4",
-    "fileSize": 28056,
+    "fileHash": "sha256-b34d634bc721e2b558ea842e3db18a054a100ef7adc6576d207fa76b1df243b4",
+    "fileSize": 29424,
     "authors": [
       "SimpleStream"
     ],
-    "description": "E Corn streaming provider with 4K, full categories, and anti-hotlink protection.",
+    "description": "E Corn streaming provider with HLS, 4K MP4, full categories, and anti-hotlink protection.",
     "tvTypes": [
       "Movie"
     ],

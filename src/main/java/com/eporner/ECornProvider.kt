@@ -200,12 +200,34 @@ class ECornProvider : MainAPI() {
                 )
 
                 val videoData = tryParseJson<EpornerVideoResponse>(apiRes.text)
-                val mp4Sources = videoData?.sources?.mp4
 
+                // 1. Emit HLS streams (native streaming used by eporner player)
+                val hlsSources = videoData?.sources?.hls
+                if (!hlsSources.isNullOrEmpty()) {
+                    for ((formatKey, sourceItem) in hlsSources) {
+                        val streamUrl = sourceItem.src ?: continue
+                        if (!streamUrl.startsWith("http")) continue
+
+                        callback.invoke(
+                            newExtractorLink(
+                                source = this.name,
+                                name = "${this.name} - Auto HLS ($formatKey)",
+                                url = streamUrl,
+                                type = ExtractorLinkType.M3U8
+                            ) {
+                                this.referer = data
+                            }
+                        )
+                        foundLinks = true
+                    }
+                }
+
+                // 2. Emit progressive MP4 streams
+                val mp4Sources = videoData?.sources?.mp4
                 if (!mp4Sources.isNullOrEmpty()) {
-                    mp4Sources.forEach { (formatKey, sourceItem) ->
-                        val streamUrl = sourceItem.src ?: return@forEach
-                        if (!streamUrl.startsWith("http")) return@forEach
+                    for ((formatKey, sourceItem) in mp4Sources) {
+                        val streamUrl = sourceItem.src ?: continue
+                        if (!streamUrl.startsWith("http")) continue
 
                         val qualityLabel = sourceItem.labelShort ?: formatKey
                         val quality = getQualityFromName(qualityLabel)
@@ -213,11 +235,11 @@ class ECornProvider : MainAPI() {
                         callback.invoke(
                             newExtractorLink(
                                 source = this.name,
-                                name = "${this.name} - $qualityLabel",
+                                name = "${this.name} - $qualityLabel (MP4)",
                                 url = streamUrl,
                                 type = ExtractorLinkType.VIDEO
                             ) {
-                                this.referer = "$mainUrl/"
+                                this.referer = data
                                 this.quality = quality
                             }
                         )
@@ -246,7 +268,7 @@ class ECornProvider : MainAPI() {
                             url = streamUrl,
                             type = ExtractorLinkType.VIDEO
                         ) {
-                            this.referer = "$mainUrl/"
+                            this.referer = data
                             this.quality = quality
                         }
                     )
@@ -258,13 +280,10 @@ class ECornProvider : MainAPI() {
         return foundLinks
     }
 
-    /**
-     * Interceptor to ensure all outgoing video chunk / segment requests have clean, canonical headers.
-     * Prevents Error 2004 (ERROR_CODE_IO_BAD_HTTP_STATUS 403) and eliminates the 10s anti-hotlink warning teaser.
-     */
     override fun getVideoInterceptor(extractorLink: ExtractorLink): Interceptor {
         return Interceptor { chain ->
             val original = chain.request()
+            val referer = if (extractorLink.referer.isNotBlank()) extractorLink.referer else "$mainUrl/"
             val cleanRequest = original.newBuilder()
                 .removeHeader("Referer")
                 .removeHeader("referer")
@@ -272,12 +291,11 @@ class ECornProvider : MainAPI() {
                 .removeHeader("user-agent")
                 .removeHeader("Origin")
                 .removeHeader("origin")
-                .header("Referer", "$mainUrl/")
-                .header("Origin", mainUrl)
+                .removeHeader("Sec-Fetch-Site")
+                .removeHeader("Sec-Fetch-Mode")
+                .removeHeader("Sec-Fetch-Dest")
+                .header("Referer", referer)
                 .header("User-Agent", USER_AGENT)
-                .header("Sec-Fetch-Dest", "video")
-                .header("Sec-Fetch-Mode", "no-cors")
-                .header("Sec-Fetch-Site", "cross-site")
                 .build()
             chain.proceed(cleanRequest)
         }
@@ -345,6 +363,7 @@ class ECornProvider : MainAPI() {
     @Serializable
     data class EpornerSources(
         @JsonProperty("mp4") @SerialName("mp4") val mp4: Map<String, EpornerSourceItem>? = null,
+        @JsonProperty("hls") @SerialName("hls") val hls: Map<String, EpornerSourceItem>? = null,
     )
 
     @Serializable
