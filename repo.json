@@ -1,0 +1,8 @@
+{
+  "name": "Personal",
+  "description": "Personal SimpleStream Extensions",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/plugins.json"
+  ]
+}

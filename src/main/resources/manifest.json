@@ -1,0 +1,6 @@
+{
+  "name": "E Corn",
+  "pluginClassName": "com.eporner.ECornPlugin",
+  "version": 1,
+  "requiresResources": false
+}
