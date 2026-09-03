@@ -17,5 +17,24 @@
       "Movie"
     ],
     "language": "en"
+  },
+  {
+    "name": "AZ Dude",
+    "internalName": "AZDude",
+    "pluginClassName": "com.azdude.AZDudePlugin",
+    "version": 1,
+    "apiVersion": 1,
+    "status": 1,
+    "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/AZDude.cs3",
+    "fileHash": "sha256-24b9acd015af658829de03f27ab7823e4ea4739298d4fe91300e7267a7062a7c",
+    "fileSize": 36795,
+    "authors": [
+      "SimpleStream"
+    ],
+    "description": "AZ Dude streaming provider for AZNude with adaptive HLS, 1080p MP4, rich metadata, and pre-roll ad bypass.",
+    "tvTypes": [
+      "Movie"
+    ],
+    "language": "en"
   }
 ]
