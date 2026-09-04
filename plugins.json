@@ -41,16 +41,16 @@
     "name": "NetMirror",
     "internalName": "NetMirror",
     "pluginClassName": "com.netmirror.NetMirrorPlugin",
-    "version": 9,
+    "version": 10,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/NetMirror.cs3",
-    "fileHash": "sha256-f7ed65e0e268dd58cf30966445cd3598d03b33a7a1278edd1f6ec030af6bce05",
-    "fileSize": 65504,
+    "fileHash": "sha256-58802802d7157493295c9d433605d420997ecea704e8f14ee6f555d3c33d1eb6",
+    "fileSize": 72027,
     "authors": [
       "SimpleStream"
     ],
-    "description": "NetMirror multi-platform streaming provider featuring Netflix, Amazon Prime Video, and Disney+ Hotstar with automated ad-gate bypass and adaptive HLS streaming.",
+    "description": "NetMirror multi-platform streaming provider featuring Netflix, Amazon Prime Video, and Disney+ Hotstar with authentic 16:9 episode stills, multi-pass TMDB resolver, and anti-hotlink bypass.",
     "tvTypes": [
       "Movie",
       "TvSeries"
