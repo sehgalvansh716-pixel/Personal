@@ -41,12 +41,12 @@
     "name": "NetMirror",
     "internalName": "NetMirror",
     "pluginClassName": "com.netmirror.NetMirrorPlugin",
-    "version": 5,
+    "version": 6,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/NetMirror.cs3",
-    "fileHash": "sha256-36fb0d6944ee45689e6668ffa4ff3ae08b487139e171bb61bf4f5bd23b6fc813",
-    "fileSize": 65408,
+    "fileHash": "sha256-418e9073966cd163915bbd6d4bd5290f8427c5abbd28ab41be11eddf869a7331",
+    "fileSize": 65317,
     "authors": [
       "SimpleStream"
     ],
