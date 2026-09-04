@@ -40,17 +40,17 @@
   {
     "name": "NetMirror",
     "internalName": "NetMirror",
-    "pluginClassName": "com.netmirror.NetMirrorPlugin",
-    "version": 13,
+    "pluginClassName": "com.horis.cncverse.CNCVersePlugin",
+    "version": 114,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/NetMirror.cs3",
-    "fileHash": "sha256-2c5c634df82b18320f70ea76eee75e17e4be88b3d6e0eca18dd5f1fe5f3e6fad",
-    "fileSize": 92379,
+    "fileHash": "sha256-75d89d1d508389631a315a6861d7a6b26d6601bb794a83434b0ea2ac05ad4bda",
+    "fileSize": 98220,
     "authors": [
       "SimpleStream"
     ],
-    "description": "NetMirror multi-platform streaming provider featuring Netflix, Amazon Prime Video, and Disney+ Hotstar with full multi-season episode loading, native HLS multi-audio tracks (Hindi, Tamil, Telugu, English), authentic 16:9 episode stills, and clean 1080p streams.",
+    "description": "NetMirror multi-platform streaming provider featuring Netflix, Amazon Prime Video, Disney+ Hotstar, Marvel, and Star Wars with full multi-season episode loading, native HLS multi-audio tracks (Hindi, Tamil, Telugu, English), and 100% ad-free & paywall-free playback.",
     "tvTypes": [
       "Movie",
       "TvSeries"
