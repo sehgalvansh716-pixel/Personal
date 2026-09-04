@@ -41,16 +41,16 @@
     "name": "NetMirror",
     "internalName": "NetMirror",
     "pluginClassName": "com.netmirror.NetMirrorPlugin",
-    "version": 10,
+    "version": 11,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/NetMirror.cs3",
-    "fileHash": "sha256-58802802d7157493295c9d433605d420997ecea704e8f14ee6f555d3c33d1eb6",
-    "fileSize": 72027,
+    "fileHash": "sha256-b5d5530564dd0f366ed00c59064d02b4d570bd0c305b265c2225bb24915b3c64",
+    "fileSize": 80941,
     "authors": [
       "SimpleStream"
     ],
-    "description": "NetMirror multi-platform streaming provider featuring Netflix, Amazon Prime Video, and Disney+ Hotstar with authentic 16:9 episode stills, multi-pass TMDB resolver, and anti-hotlink bypass.",
+    "description": "NetMirror multi-platform streaming provider featuring Netflix, Amazon Prime Video, and Disney+ Hotstar with authentic Hindi, Tamil, Telugu & English multi-audio dubs, 16:9 episode stills, and clean 1080p streams.",
     "tvTypes": [
       "Movie",
       "TvSeries"
