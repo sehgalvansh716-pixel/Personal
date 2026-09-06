@@ -58,19 +58,19 @@
     "language": "en"
   },
   {
-    "name": "Disney+ Hotstar",
+    "name": "JioHotstar",
     "internalName": "Hotstar",
     "pluginClassName": "com.hotstar.HotstarPlugin",
     "version": 1,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Hotstar.cs3",
-    "fileHash": "sha256-9c4f27ffac705824753c1782f68952ed4d02644277d9906af63032a577e0e50b",
-    "fileSize": 86034,
+    "fileHash": "sha256-f2de2c9332d2be6a6adf3b3d3a69d0fa9c13a6cfa35199319e0763b2e57be2c4",
+    "fileSize": 86025,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Disney+ Hotstar standalone streaming extension featuring Hotstar Specials, Marvel, Star Wars, Indian dramas, and blockbuster movies with native HLS multi-audio tracks (Hindi, Tamil, Telugu, Malayalam, Bengali, Marathi, Kannada), 1080p MP4 streams, and full multi-season episode tracking.",
+    "description": "JioHotstar streaming extension featuring Hotstar Specials, Marvel, Star Wars, Indian dramas, and blockbuster movies with native HLS multi-audio tracks (Hindi, Tamil, Telugu, Malayalam, Bengali, Marathi, Kannada), 1080p MP4 streams, and full multi-season episode tracking.",
     "tvTypes": [
       "Movie",
       "TvSeries"
