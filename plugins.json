@@ -65,12 +65,12 @@
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Hotstar.cs3",
-    "fileHash": "sha256-f2de2c9332d2be6a6adf3b3d3a69d0fa9c13a6cfa35199319e0763b2e57be2c4",
-    "fileSize": 86025,
+    "fileHash": "sha256-1053561005c6ab12738fd58e1d8513d62230f9367914eb04ca8db5061482dcc0",
+    "fileSize": 46817,
     "authors": [
       "SimpleStream"
     ],
-    "description": "JioHotstar streaming extension featuring Hotstar Specials, Marvel, Star Wars, Indian dramas, and blockbuster movies with native HLS multi-audio tracks (Hindi, Tamil, Telugu, Malayalam, Bengali, Marathi, Kannada), 1080p MP4 streams, and full multi-season episode tracking.",
+    "description": "Genuine standalone JioHotstar streaming extension directly targeting hotstar.com with full catalog rails, Marvel, Disney+, Hotstar Specials, 1080p/720p streams, and complete multi-season episode tracking.",
     "tvTypes": [
       "Movie",
       "TvSeries"
