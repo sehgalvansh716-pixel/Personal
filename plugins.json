@@ -61,16 +61,16 @@
     "name": "JioHotstar",
     "internalName": "Hotstar",
     "pluginClassName": "com.hotstar.HotstarPlugin",
-    "version": 1,
+    "version": 2,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Hotstar.cs3",
-    "fileHash": "sha256-1053561005c6ab12738fd58e1d8513d62230f9367914eb04ca8db5061482dcc0",
-    "fileSize": 46817,
+    "fileHash": "sha256-8ffe279478cca2a6c16c50e683e7e78c77623606e52f00a2badca117388e1240",
+    "fileSize": 52197,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Genuine standalone JioHotstar streaming extension directly targeting hotstar.com with full catalog rails, Marvel, Disney+, Hotstar Specials, 1080p/720p streams, and complete multi-season episode tracking.",
+    "description": "Genuine standalone JioHotstar streaming extension directly targeting hotstar.com with full hero carousel, Featured Highlights, Marvel, Disney+, Hotstar Specials, verified 1080p/720p streams, and complete multi-season episode tracking.",
     "tvTypes": [
       "Movie",
       "TvSeries"
