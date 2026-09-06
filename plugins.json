@@ -61,16 +61,16 @@
     "name": "Cinejoy",
     "internalName": "Cinejoy",
     "pluginClassName": "com.cinejoy.CinejoyPlugin",
-    "version": 1,
+    "version": 2,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Cinejoy.cs3",
-    "fileHash": "sha256-cb07b14fd661ddad36e2fef817ec8be710071fec6c055f9f9d08d339cbd90c10",
-    "fileSize": 57740,
+    "fileHash": "sha256-c35ba420b3d103bf24db5ae0e374eab055ab2a13f529dc8c9c77e346dee40f92",
+    "fileSize": 64488,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Cinejoy standalone streaming provider with adaptive HLS multi-audio (4K, 1080p, 720p), multi-language subtitles, full category rails, and anti-hotlink protection.",
+    "description": "Cinejoy standalone streaming provider with multi-server failover (Lisbon, Nebula, Solara), adaptive HLS multi-audio (4K, 1080p, 720p), multi-language subtitles, and 38 comprehensive categories including curated collections, streaming networks, and genres.",
     "tvTypes": [
       "Movie",
       "TvSeries"
