@@ -81,16 +81,16 @@
     "name": "Bingr",
     "internalName": "Bingr",
     "pluginClassName": "com.bingr.BingrPlugin",
-    "version": 3,
+    "version": 4,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Bingr.cs3",
-    "fileHash": "sha256-d201502231e3ab26278ee437bd552a515cacd69068e89deaa1b85d7f6a873b6e",
-    "fileSize": 62259,
+    "fileHash": "sha256-68313fc8717eb74bb8c26c2c1e4be97232f24d905daa76fc3ed9905be19232ef",
+    "fileSize": 56781,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Bingr streaming provider featuring full multi-server extraction (FRAME Volt [1080p Full HD], FRAME Zephyr, FRAME Atlas, Edmunds, Copernicus, Rohini, Nebula, Meghnad, Sirius, Quasar, Filmu, VidEasy, Cinezo) emitted as distinct sources, multi-language subtitles, ultra-rich TMDB metadata, and 100% ad-free & paywall-free playback.",
+    "description": "Bingr streaming provider featuring full multi-server extraction (Aphelion [1080p Full HD / Dual Audio], Phoenix [1080p Full HD], Paris [1080p Multi-Audio], Corvus [720p HD], Bastion [720p HD], Filmu, VidEasy, Cinezo) emitted as distinct sources, multi-language subtitles, ultra-rich TMDB metadata, and 100% ad-free & paywall-free playback.",
     "tvTypes": [
       "Movie",
       "TvSeries",
