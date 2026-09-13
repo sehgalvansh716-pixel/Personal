@@ -61,12 +61,12 @@
     "name": "Cinejoy",
     "internalName": "Cinejoy",
     "pluginClassName": "com.cinejoy.CinejoyPlugin",
-    "version": 10,
+    "version": 11,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Cinejoy.cs3",
-    "fileHash": "sha256-f5a35f4a0dfca3838fc1fe9a307bcbd50fd82f4088711b02b6c5d4a1ae18e0ed",
-    "fileSize": 190855,
+    "fileHash": "sha256-4ec8cc4a2392d791ff8a12eeb299e6517914343f266c48b514d583f5a8d0e9c8",
+    "fileSize": 191897,
     "authors": [
       "SimpleStream"
     ],
