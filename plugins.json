@@ -61,16 +61,16 @@
     "name": "Cinejoy",
     "internalName": "Cinejoy",
     "pluginClassName": "com.cinejoy.CinejoyPlugin",
-    "version": 8,
+    "version": 9,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Cinejoy.cs3",
-    "fileHash": "sha256-b0948dc359d3d8ba00251af21c52d5f4c81130e427d15cb68df82f73d3e61209",
-    "fileSize": 88184,
+    "fileHash": "sha256-1e6c89931363fa1869a0e38e2b84d972da51be7617a1f9638ea45f92d1a78449",
+    "fileSize": 94399,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Cinejoy multi-server streaming provider emitting all 8 servers (Lisbon, Nebula, Solara, Athens, Joy, Castle, Sakura, Canaias) with direct Auto HLS playback for Lisbon, rich server metadata payload for in-app switching, dual YouTube & Shegu IMDb direct MP4 ambient trailers, 38 dynamic categories, TV cast avatars, and content badges.",
+    "description": "Cinejoy multi-server streaming provider with verified in-page parallel extraction across all active servers (Lisbon, Nebula, Solara, Joy), guaranteed direct Auto HLS playback for all confirmed online streams with automatic player failover, dual YouTube & Shegu IMDb direct MP4 trailers, 38 categories, and TV badges.",
     "tvTypes": [
       "Movie",
       "TvSeries"
