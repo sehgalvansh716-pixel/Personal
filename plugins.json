@@ -81,16 +81,16 @@
     "name": "Bingr",
     "internalName": "Bingr",
     "pluginClassName": "com.bingr.BingrPlugin",
-    "version": 1,
+    "version": 2,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Bingr.cs3",
-    "fileHash": "sha256-9247958be6ba787f238ec90c439fc3db2c724d61cc3ca2d9857522a4488deec4",
-    "fileSize": 48598,
+    "fileHash": "sha256-5d424560c06e1573c964890b19509e33d20a962b9b22e2d4a47eac0b13e05eb2",
+    "fileSize": 61515,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Bingr streaming provider featuring full multi-server extraction (Edmunds, Nebula, Copernicus, Sirius, Quasar, Filmu, Vidy, Cinezo) emitted as distinct sources, multi-language subtitles, ultra-rich TMDB metadata, and 100% ad-free & paywall-free playback.",
+    "description": "Bingr streaming provider featuring full multi-server extraction (Edmunds, Copernicus, Rohini, Nebula, Meghnad, Sirius, Quasar, FRAME cluster, Filmu, VidEasy, Cinezo) emitted as distinct sources, multi-language subtitles, ultra-rich TMDB metadata, and 100% ad-free & paywall-free playback.",
     "tvTypes": [
       "Movie",
       "TvSeries",
@@ -102,16 +102,16 @@
     "name": "Atlantic",
     "internalName": "Atlantic",
     "pluginClassName": "com.atlantic.AtlanticPlugin",
-    "version": 1,
+    "version": 2,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Atlantic.cs3",
-    "fileHash": "sha256-33c55a21819f01a8209798ae26b63ceae49725d350430a73a353a9c941c6f12f",
-    "fileSize": 59994,
+    "fileHash": "sha256-ce0917ae75f6db6803d164687a69cc3e9f1bf9713e91020969af7e346248e827",
+    "fileSize": 68569,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Atlantic streaming provider with native Aphrodite Gate security resolution delivering 4K and 1080p direct HLS master playlists, Artemis mirror server, multi-language subtitles, dual trailers, and ultra-rich TMDB metadata.",
+    "description": "Atlantic streaming provider with native Aphrodite Gate security resolution (4K/1080p), Artemis mirror server, high-speed FRAME cluster, multi-server embed scrapers, multi-language subtitles, dual trailers, and ultra-rich TMDB metadata.",
     "tvTypes": [
       "Movie",
       "TvSeries"
@@ -122,16 +122,16 @@
     "name": "Boomflix",
     "internalName": "Boomflix",
     "pluginClassName": "com.boomflix.BoomflixPlugin",
-    "version": 1,
+    "version": 2,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Boomflix.cs3",
-    "fileHash": "sha256-d2675d2bd6f5af6f9c9cfed9270010a104393aed2caa99a10f67964805109639",
-    "fileSize": 51581,
+    "fileHash": "sha256-b14395a0d9f9b2c745fb2b0652ee5216ba9fff463ddf8ba56da6e4231819aeea",
+    "fileSize": 52605,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Boomflix streaming provider featuring multi-server FRAME cluster extraction (FRAME Zephyr, FRAME Atlas, FRAME Volt, FRAME Rift, FRAME Luna, FRAME Quill) emitted as distinct sources, subtitles, and ultra-rich TMDB metadata.",
+    "description": "Boomflix streaming provider featuring multi-server FRAME cluster extraction (FRAME Zephyr, FRAME Atlas, FRAME Volt, FRAME Rift, FRAME Luna, FRAME Quill) and multi-server embed scrapers emitted as distinct sources, subtitles, and ultra-rich TMDB metadata.",
     "tvTypes": [
       "Movie",
       "TvSeries"
