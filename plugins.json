@@ -76,5 +76,66 @@
       "TvSeries"
     ],
     "language": "en"
+  },
+  {
+    "name": "Bingr",
+    "internalName": "Bingr",
+    "pluginClassName": "com.bingr.BingrPlugin",
+    "version": 1,
+    "apiVersion": 1,
+    "status": 1,
+    "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Bingr.cs3",
+    "fileHash": "sha256-9247958be6ba787f238ec90c439fc3db2c724d61cc3ca2d9857522a4488deec4",
+    "fileSize": 48598,
+    "authors": [
+      "SimpleStream"
+    ],
+    "description": "Bingr streaming provider featuring full multi-server extraction (Edmunds, Nebula, Copernicus, Sirius, Quasar, Filmu, Vidy, Cinezo) emitted as distinct sources, multi-language subtitles, ultra-rich TMDB metadata, and 100% ad-free & paywall-free playback.",
+    "tvTypes": [
+      "Movie",
+      "TvSeries",
+      "Anime"
+    ],
+    "language": "en"
+  },
+  {
+    "name": "Atlantic",
+    "internalName": "Atlantic",
+    "pluginClassName": "com.atlantic.AtlanticPlugin",
+    "version": 1,
+    "apiVersion": 1,
+    "status": 1,
+    "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Atlantic.cs3",
+    "fileHash": "sha256-33c55a21819f01a8209798ae26b63ceae49725d350430a73a353a9c941c6f12f",
+    "fileSize": 59994,
+    "authors": [
+      "SimpleStream"
+    ],
+    "description": "Atlantic streaming provider with native Aphrodite Gate security resolution delivering 4K and 1080p direct HLS master playlists, Artemis mirror server, multi-language subtitles, dual trailers, and ultra-rich TMDB metadata.",
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "language": "en"
+  },
+  {
+    "name": "Boomflix",
+    "internalName": "Boomflix",
+    "pluginClassName": "com.boomflix.BoomflixPlugin",
+    "version": 1,
+    "apiVersion": 1,
+    "status": 1,
+    "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Boomflix.cs3",
+    "fileHash": "sha256-d2675d2bd6f5af6f9c9cfed9270010a104393aed2caa99a10f67964805109639",
+    "fileSize": 51581,
+    "authors": [
+      "SimpleStream"
+    ],
+    "description": "Boomflix streaming provider featuring multi-server FRAME cluster extraction (FRAME Zephyr, FRAME Atlas, FRAME Volt, FRAME Rift, FRAME Luna, FRAME Quill) emitted as distinct sources, subtitles, and ultra-rich TMDB metadata.",
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "language": "en"
   }
 ]
