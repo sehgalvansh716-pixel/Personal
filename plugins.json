@@ -61,16 +61,16 @@
     "name": "Cinejoy",
     "internalName": "Cinejoy",
     "pluginClassName": "com.cinejoy.CinejoyPlugin",
-    "version": 11,
+    "version": 12,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Cinejoy.cs3",
-    "fileHash": "sha256-4ec8cc4a2392d791ff8a12eeb299e6517914343f266c48b514d583f5a8d0e9c8",
-    "fileSize": 191897,
+    "fileHash": "sha256-49d0957e6102dd0595f580cea4e419cb51a809e2e04f63f61010cb7945d59e37",
+    "fileSize": 185662,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Cinejoy multi-server streaming provider with embedded WebAssembly cryptographic extraction across all active servers (Lisbon, Nebula, Solara, Joy), emitting 100% verified direct Auto HLS streams with automatic player failover, dual YouTube & Shegu IMDb direct MP4 trailers, 38 categories, and TV badges.",
+    "description": "Cinejoy multi-server streaming provider featuring verified auto-failover extraction across Lisbon [4K], Nebula [HD], and Solara [HD] with direct HLS master playlists, multi-language subtitles, dual trailers, and 38 TMDB rails.",
     "tvTypes": [
       "Movie",
       "TvSeries"
