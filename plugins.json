@@ -137,5 +137,25 @@
       "TvSeries"
     ],
     "language": "en"
+  },
+  {
+    "name": "CinejoyExtra",
+    "internalName": "CinejoyExtra",
+    "pluginClassName": "com.cinejoyextra.CinejoyExtraPlugin",
+    "version": 1,
+    "apiVersion": 1,
+    "status": 1,
+    "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/CinejoyExtra.cs3",
+    "fileHash": "sha256-ac604582818bcd430797458e67a9769313f300d902e5acc8ec44b2e3342e5f58",
+    "fileSize": 74077,
+    "authors": [
+      "SimpleStream"
+    ],
+    "description": "CinejoyExtra standalone streaming provider with 38 curated feeds (Shegu Joy collections, Oscar nominees, Rotten Tomatoes best, Netflix, HBO Max, Disney+, Anime, K-Drama, Bollywood), native Vidrock AES-GCM 1080p Ultra-Fast HLS, multi-server FRAME cluster extraction (FRAME Volt [1080p Full HD / Vidmody multi-audio], FRAME Zephyr, FRAME Atlas, FRAME Rift, FRAME Luna, FRAME Quill), multi-language subtitles (OpenSubtitles v3, VDRK, Natsuki, Shegu), and anti-403 streaming interceptors.",
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "language": "en"
   }
 ]
