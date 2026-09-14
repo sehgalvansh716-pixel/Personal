@@ -122,16 +122,16 @@
     "name": "Boomflix",
     "internalName": "Boomflix",
     "pluginClassName": "com.boomflix.BoomflixPlugin",
-    "version": 3,
+    "version": 4,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Boomflix.cs3",
-    "fileHash": "sha256-d9ec469a704869232a2309ac253156f949f8c66db5521e0add966bae6e92157a",
-    "fileSize": 53242,
+    "fileHash": "sha256-14066c476866ef7b1464b9acecde6cd719d8945924a27a9009d9caff206b8a4d",
+    "fileSize": 64404,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Boomflix streaming provider featuring multi-server FRAME cluster extraction (FRAME Volt [1080p Full HD], FRAME Zephyr, FRAME Atlas, FRAME Rift, FRAME Luna, FRAME Quill) and multi-server embed scrapers emitted as distinct sources, subtitles, and ultra-rich TMDB metadata.",
+    "description": "Boomflix streaming provider featuring native Vidrock AES-GCM (1080p Ultra-Fast HLS with TikTok CDN, Workers.dev, Moonfirekeeper, Streamrk), multi-server FRAME cluster extraction (FRAME Volt [1080p Full HD / Vidmody], FRAME Zephyr, FRAME Atlas, FRAME Rift, FRAME Luna, FRAME Quill), multi-language subtitles (OpenSubtitles v3, VDRK, Natsuki, Shegu), and ultra-rich TMDB metadata.",
     "tvTypes": [
       "Movie",
       "TvSeries"
