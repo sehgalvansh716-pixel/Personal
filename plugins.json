@@ -142,12 +142,12 @@
     "name": "CinejoyExtra",
     "internalName": "CinejoyExtra",
     "pluginClassName": "com.cinejoyextra.CinejoyExtraPlugin",
-    "version": 2,
+    "version": 3,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/CinejoyExtra.cs3",
-    "fileHash": "sha256-329eeb70e98ce3240faf2ea87a41378796247b8c368ec910bbe92c148d9a4ab5",
-    "fileSize": 74446,
+    "fileHash": "sha256-5b31c3dd8711a885e95aea222520ea60ea056a7151c24153541ea3030d770bb5",
+    "fileSize": 78550,
     "authors": [
       "SimpleStream"
     ],
