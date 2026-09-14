@@ -102,16 +102,16 @@
     "name": "Atlantic",
     "internalName": "Atlantic",
     "pluginClassName": "com.atlantic.AtlanticPlugin",
-    "version": 4,
+    "version": 5,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Atlantic.cs3",
-    "fileHash": "sha256-9d146110dfd6d8e52e0916696d5714ad6ca4cde5bfd9f790c85c4ab538771e0c",
-    "fileSize": 65568,
+    "fileHash": "sha256-0ca81e049ba0c89f785284ed75b542619d68fdd0112442a4a453ac57ab784ddd",
+    "fileSize": 76531,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Atlantic streaming provider with native Aphrodite Gate security resolution (4K Ultra HD & 1080p), Artemis mirror server, multi-server embed scrapers, multi-source subtitles (VDRK, Natsuki, Shegu), dual trailers, and ultra-rich TMDB metadata.",
+    "description": "Atlantic streaming provider with native Aphrodite Gate security resolution (4K Ultra HD & 1080p), Vidrock AES-GCM direct CDN resolver, Allmovieland multi-server resolver, OpenSubtitles v3, VDRK, Natsuki, Shegu subtitles, dual trailers, and ultra-rich TMDB metadata.",
     "tvTypes": [
       "Movie",
       "TvSeries"
