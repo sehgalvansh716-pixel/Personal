@@ -102,16 +102,16 @@
     "name": "Atlantic",
     "internalName": "Atlantic",
     "pluginClassName": "com.atlantic.AtlanticPlugin",
-    "version": 6,
+    "version": 7,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Atlantic.cs3",
-    "fileHash": "sha256-8ddb90e601fcdf329ee6477b2532c555b997687d13bf43e21f8491cf34b886b0",
-    "fileSize": 66474,
+    "fileHash": "sha256-54805790e4d2cb1b01b37ab9934770d746a65e68e6c8feee6e9ffe227aceedbc",
+    "fileSize": 66574,
     "authors": [
       "SimpleStream"
     ],
-    "description": "Atlantic streaming provider featuring native Aphrodite Gate (4K Ultra HD) and Artemis Stellar (adaptive 1080p/4K HLS with multi-audio), native Natsuki, Granite/VDRK, Shegu, and OpenSubtitles v3 subtitles, and ultra-rich TMDB metadata.",
+    "description": "Atlantic streaming provider featuring native Aphrodite Gate (4K Ultra HD) and Artemis Stellar (adaptive 1080p/4K HLS with multi-audio), auto-refreshing real-time recommendations, native Natsuki, Granite/VDRK, Shegu, and OpenSubtitles v3 subtitles, and ultra-rich TMDB metadata.",
     "tvTypes": [
       "Movie",
       "TvSeries"
