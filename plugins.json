@@ -102,12 +102,12 @@
     "name": "Atlantic",
     "internalName": "Atlantic",
     "pluginClassName": "com.atlantic.AtlanticPlugin",
-    "version": 9,
+    "version": 10,
     "apiVersion": 1,
     "status": 1,
     "url": "https://raw.githubusercontent.com/sehgalvansh716-pixel/Personal/master/Atlantic.cs3",
-    "fileHash": "sha256-f73521cdb5f23f44c7abbacf701f6123da58cbe68e14f6a2fe98e773191208fd",
-    "fileSize": 69292,
+    "fileHash": "sha256-addbfea16230eaf1f0a1e3cd182d60823c88e8a246a1661cbe21f7debcefd572",
+    "fileSize": 69268,
     "authors": [
       "SimpleStream"
     ],
